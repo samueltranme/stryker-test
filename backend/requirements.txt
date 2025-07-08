@@ -1,0 +1,10 @@
+flask
+flask-cors
+SQLAlchemy
+pytest
+pytest-flask
+reportlab
+pypdf
+Werkzeug
+flasgger
+python-dotenv
