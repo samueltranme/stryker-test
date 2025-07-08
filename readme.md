@@ -3,7 +3,7 @@ This is a full-stack demo application built for the Customer Intelligence team t
 
 # 🛠️ Technologies Used
 - Frontend: Next.js, React, Material UI
-- Backend: Flask, SQLite, OpenAI LLM API
+- Backend: Flask, SQLite, OpenRouter LLM API
 - Swagger UI: API documentation and live testing
 - Testing: Jest + React Testing Library (Frontend), Pytest (Backend)
 
@@ -12,7 +12,7 @@ This is a full-stack demo application built for the Customer Intelligence team t
 - Node.js ≥ 16
 - Python ≥ 3.9
 - pip and venv/virtualenv
-- OpenAI API Key (https://platform.openai.com)
+- OpenRouter API Key ([https://openrouter.ai/settings/keys])
 
 ## 🖥️ Frontend Setup
 ```
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ## 🔑 Environment Variables
 Create a .env file in the backend directory:
 ```
-OPENAI_API_KEY=your-openai-api-key
+OPENROUTER_API_KEY=your-openrouter-api-key
 ```
 ## ▶️ Run Backend Server
 ```
